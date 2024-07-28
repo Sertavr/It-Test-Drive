@@ -9,6 +9,13 @@ h1, h2, p {
 h1, h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+h1{
+  font-size: 40px;
+  margin: 0 0 15px;
+}
+h2{
+  font-size: 30px;
+}
 .menu{
   width: 80%;
   background-color: burlywood;
@@ -21,6 +28,8 @@ h1, h2 {
 }
 .item p{
   display: inline-block;
+  font-size: 18px;
+  margin: 5px 0;
 }
 .flavor, .dessert{
   width: 70%;
@@ -29,4 +38,31 @@ h1, h2 {
 .price{
   text-align: right;
   width: 30%;
+}
+hr{
+  height: 2px;
+  border-color: brown;
+  background-color: brown;
+}
+a{
+  color: black;
+}
+
+a:visited{
+  color: black;
+}
+a:active{
+  color: brown;
+}
+a:hover{
+  color: brown;
+}
+footer{
+  font-size: 14px;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
 }
